@@ -133,11 +133,9 @@
                                         
                                         <?php if ($organizers){?>
                                         	<p><strong>Organizer:</strong>
-		                                        <?php
-			                                        foreach($organizers as $organizerId) {
+		                                        <?php foreach($organizers as $organizerId) {
 													  echo tribe_get_organizer($organizerId);
-													}
-												?>
+													}?>
 											</p>
                                         <?php } ?>
                                         
